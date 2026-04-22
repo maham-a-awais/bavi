@@ -223,6 +223,19 @@ input[type=range]{width:100%;accent-color:var(--accent);cursor:pointer}
 .map-iframe{width:100%;height:380px;border:0;display:block}
 .map-note{font-size:11px;color:var(--muted);padding:8px 20px;background:var(--bg3);border-top:1px solid var(--border)}
 
+/* ── ABOUT ── */
+#about{background:#fff;padding:90px 40px}
+.about-inner{max-width:860px}
+.about-timeline{display:flex;border-top:1px solid rgba(0,0,0,0.08);border-bottom:1px solid rgba(0,0,0,0.08);padding:20px 0;margin-bottom:40px}
+.about-titem{flex:1;text-align:center;padding:0 12px;border-right:1px solid rgba(0,0,0,0.08)}
+.about-titem:last-child{border-right:none}
+.about-tyr{font-family:var(--font-h);font-size:30px;font-weight:900;color:var(--accent);line-height:1}
+.about-tla{font-size:11px;color:var(--muted);letter-spacing:0.1em;text-transform:uppercase;margin-top:5px;line-height:1.4}
+.about-body{display:grid;gap:22px}
+.about-p{font-size:15px;font-weight:300;color:var(--mid);line-height:1.9}
+.about-p strong{font-weight:500;color:var(--dark)}
+.about-pull{font-family:var(--font-h);font-size:24px;font-weight:700;line-height:1.25;color:var(--dark);border-left:3px solid var(--accent);padding:16px 24px;margin:6px 0;background:var(--bg3)}
+.about-tagline{font-family:var(--font-h);font-size:17px;font-weight:600;letter-spacing:0.22em;text-transform:uppercase;color:var(--accent);margin-bottom:36px;padding-bottom:28px;border-bottom:1px solid rgba(0,0,0,0.09)}
 /* ── WHY ── */
 #why{background:var(--bg)}
 .wgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:40px}
@@ -326,6 +339,7 @@ footer p{font-size:13px;color:var(--mid);line-height:1.7;max-width:280px}
     <div class="nav-wm">Automotive Traders International Inc.</div>
   </a>
   <ul class="nav-links">
+    <li><a href="#about" data-tid="navAbout">About</a></li>
     <li><a href="#units" data-tid="navUnits">Our Units</a></li>
     <li><a href="#services" data-tid="navServices">Services</a></li>
     <li><a href="#finance" data-tid="navFinance">Finance</a></li>
@@ -994,6 +1008,30 @@ footer p{font-size:13px;color:var(--mid);line-height:1.7;max-width:280px}
         <iframe class="map-iframe" src="https://maps.google.com/maps?q=Cagayan+de+Oro+City,+Philippines&output=embed" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" title="CDO Delivery Point"></iframe>
         <div class="map-note">Cagayan de Oro City, Misamis Oriental — units delivered here for CDO customers.</div>
       </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-inner">
+    <div class="sec-tag">About Us</div>
+    <div class="sec-title" style="color:var(--dark)">Built on Trust.<br>Driven by Purpose.</div>
+    <div class="about-tagline">The Only Choice, For Life</div>
+    <div class="about-timeline">
+      <div class="about-titem"><div class="about-tyr">2011</div><div class="about-tla">Founded<br>Cebu City</div></div>
+      <div class="about-titem"><div class="about-tyr">2016</div><div class="about-tla">Expanded to<br>Cagayan de Oro</div></div>
+      <div class="about-titem"><div class="about-tyr">2017</div><div class="about-tla">Opened<br>Bohol Branch</div></div>
+      <div class="about-titem"><div class="about-tyr">13+</div><div class="about-tla">Models<br>Available</div></div>
+    </div>
+    <div class="about-body">
+      <p class="about-p">Bavi Automotive Traders International Inc. was established in 2011 in Cebu City, beginning with a focus on heavy commercial trucks sourced directly from Japan. Over the years, the business evolved to meet the needs of Filipino entrepreneurs and workers, expanding its range to include Suzuki multicabs and vans — the backbone of livelihood transport across the Philippines. From a single branch in Cebu, Bavi grew to Cagayan de Oro in 2016 and Bohol in 2017, building a reputation that now stretches across the Visayas and Mindanao.</p>
+      <div class="about-pull">"The trust you place in an older brother — that is the standard this business was built to meet."</div>
+      <p class="about-p">The name <strong>Bavi</strong> carries a meaning that goes deeper than a brand. It is a Punjabi word for older brother. The founder, who grew up in a small village in Punjab, Pakistan, recalls someone very close to him calling him <strong>"Ve Bavi"</strong> — a personal term of endearment that carried complete trust, reliability, and warmth. That phrase stayed with him. When the time came to build something of his own, the name was already chosen. Not for the market, not for recognition — but because it represented the kind of relationship he wanted to have with every customer.</p>
+      <p class="about-p">The vision behind Bavi Automotive is as simple as that memory. A customer should feel the same confidence choosing a vehicle here as a younger sibling feels turning to an older brother — knowing the advice is honest, the product is sound, and the person standing behind it will not let them down. That standard has guided every unit sold, every branch opened, and every commitment made since day one.</p>
+      <p class="about-p">Today, Bavi Automotive operates across three branches with a delivery point in Cagayan de Oro, offering fully reconditioned Japanese surplus units complete with registration, flexible financing, custom builds, and nationwide home delivery. The business continues to grow — but the name, and what it stands for, has never changed.</p>
     </div>
   </div>
 </section>
